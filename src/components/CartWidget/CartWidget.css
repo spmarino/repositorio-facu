@@ -1,0 +1,40 @@
+/* Carrito de compras */
+.cart {
+    position: fixed;
+    right: 4.5rem;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.cart img {
+    width: 1.8rem;
+}
+.cart img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.cart .notification {
+    display: inline-block;
+    position: relative;
+    border: 2px solid #b0dd0b;
+    border-radius: 100%;
+    top: -1rem;
+    right: 0.5rem;
+    z-index: -1;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+}
+
+.cart .notification:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.notification span {
+    display: flex;
+    justify-content: center;
+    color: #d9ed8b;
+    font-size: 12px;
+}
